@@ -31,8 +31,13 @@ findAllPrimeUpto(100)
 ```
 
 2. find all the prime numbers in range 80 to 100? (if range is small i.e. B-A <<< B)
+
+
 method-1: find all the prime numbers upto 100 and then filter out which are less than 80.
+
 complexity: O(B*log(B)) approx
 
+
 method-2: find all prime numbers upto sqrt(B) using above sieve then use those prime numbers to sieve through range A to B.
+
 complexity: sqrt(B)*log(sqrt(B)) approx
