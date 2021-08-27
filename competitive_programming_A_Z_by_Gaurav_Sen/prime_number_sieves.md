@@ -35,7 +35,7 @@ findAllPrimeUpto(100)
 
 method-1: find all the prime numbers upto 1000000000000 and then filter out which are less than 999999999140.
 
-complexity: O(B*log(B)) approx
+complexity: O(B*log(B)) approx <br>
 It is not suitable for above constraints.
 
 
